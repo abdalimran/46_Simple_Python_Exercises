@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def reverse(str):
 
     reversed=""
@@ -17,4 +13,5 @@ def Main():
 
     print(reverse(str))
 
-Main()
+if __name__=="__main__":
+    Main()

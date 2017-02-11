@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def histogram(li):
     hist=""
     for i in range(len(li)):
@@ -18,4 +14,5 @@ def Main():
 
     print(histogram(li))
 
-Main()
+if __name__=="__main__":
+    Main()

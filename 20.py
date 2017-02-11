@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def translate(s):
     dic={"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"}
 
@@ -17,4 +13,5 @@ def Main():
 
     print(translate(ss))
 
-Main()
+if __name__=="__main__":
+    Main()

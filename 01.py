@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def Max(x,y):
     if x>y:
         return x
@@ -14,4 +10,5 @@ def Main():
 
     print(Max(x,y))
 
-Main()
+if __name__=="__main__":
+    Main()

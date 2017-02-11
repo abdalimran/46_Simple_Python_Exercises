@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def max_in_list(li):
     max=-99999999
     max=int(max)
@@ -19,4 +15,5 @@ def Main():
 
     print(max_in_list(li))
 
-Main()
+if __name__=="__main__":
+    Main()

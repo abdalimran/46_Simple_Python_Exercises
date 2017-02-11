@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def length(str):
     count=0
     count=int(count)
@@ -22,4 +18,5 @@ def Main():
     n=int(input())
     print("The words longer than {} are = {}".format(n,filter_long_words(li,n)))
 
-Main()
+if __name__=="__main__":
+    Main()

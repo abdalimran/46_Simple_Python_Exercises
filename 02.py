@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def max_of_three(x,y,z):
     if x>y and x>z:
         return x
@@ -19,4 +15,5 @@ def Main():
 
     print(max_of_three(x,y,z))
 
-Main()
+if __name__=="__main__":
+    Main()

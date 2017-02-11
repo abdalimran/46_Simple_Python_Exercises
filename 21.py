@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def char_freq(s):
     l=str(set(s))
     freq={}
@@ -14,4 +10,6 @@ def char_freq(s):
 def Main():
     s=input("Input a string:")
     char_freq(s)
-Main()
+
+if __name__=="__main__":
+    Main()

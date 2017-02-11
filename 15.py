@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def length(str):
     count=0
     count=int(count)
@@ -23,4 +19,5 @@ def Main():
     li=l.split()
     find_longest_word(li)
 
-Main()
+if __name__=="__main__":
+    Main()

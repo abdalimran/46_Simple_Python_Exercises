@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def Song_99():
     for i in range(99,0,-1):
         print("{} bottles of beer on the wall, {} bottles of beer.".format(i,i))
@@ -10,4 +6,5 @@ def Song_99():
 def Main():
     Song_99()
 
-Main()
+if __name__=="__main__":
+    Main()

@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def make_ing_form(w):
     if w.endswith('ie'):
         w = w.rstrip('ie')
@@ -20,4 +16,5 @@ def Main():
     w=input("Enter word:")
     print(make_ing_form(w))
 
-Main()
+if __name__=="__main__":
+    Main()

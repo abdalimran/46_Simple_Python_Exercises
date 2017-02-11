@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def ifConsonant(c):
     Vowels=['a','A','e','E','i','I','o','O','u','U']
     if c not in Vowels:
@@ -27,4 +23,5 @@ def Main():
 
     print(translate(str))
 
-Main()
+if __name__=="__main__":
+    Main()

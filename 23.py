@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 import re
 
 def correct(s):
@@ -17,4 +13,6 @@ def Main():
     #s=input("Enter string:")
     s = "This   is  very funny  and    cool.Indeed!. But      you should.try  this also"
     print(correct(s))
-Main()
+
+if __name__=="__main__":
+    Main()

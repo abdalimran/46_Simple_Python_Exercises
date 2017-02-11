@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def pangram(str):
     ss=len(set(str))
     if ss >= 26:
@@ -19,4 +15,5 @@ def Main():
     else:
         print('"{}" is not a Pangram!'.format(str))
 
-Main()
+if __name__=="__main__":
+    Main()

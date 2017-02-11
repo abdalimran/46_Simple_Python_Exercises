@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def overlapping(l1,l2):
     ovrl=False
     for i in range(0,len(l1)):
@@ -24,4 +20,5 @@ def Main():
     else:
         print("The list has no overlapping member!")
 
-Main()
+if __name__=="__main__":
+    Main()

@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def sum(arr):
     r=0
     r=int(r)
@@ -35,4 +31,5 @@ def Main():
     print("Sum of {} is = {} \nAnd Multiplication of {} is = {}".format(arr,sum(arr),arr,multiply(arr)))
 
 
-Main()
+if __name__=="__main__":
+    Main()

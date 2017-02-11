@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def is_palindrome(str):
     j = len(str)
     pal=False
@@ -24,4 +20,5 @@ def Main():
     else:
         print("{} is not a Plindrome!".format(str))
 
-Main()
+if __name__=="__main__":
+    Main()

@@ -1,7 +1,3 @@
-"""  Bismillah hir rahmanir raheem. Thanks to Allah for everything.
-     Coder: Abdullah-Al-Imran
-     Email: abdalimran@gmail.com  """
-
 def make_3sg_form(v):
     if v.endswith('y'):
         v+='ies'
@@ -15,4 +11,5 @@ def Main():
     s=input("Enter verb:")
     print(make_3sg_form(s))
 
-Main()
+if __name__=="__main__":
+    Main()
